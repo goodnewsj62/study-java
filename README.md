@@ -1,2 +1,3 @@
 ## **JAVA LEARN**
-My journey of learning JAVA as a language 
+
+My journey of learning JAVA as a language
