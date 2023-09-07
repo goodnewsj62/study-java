@@ -1,0 +1,20 @@
+public class Calendar {
+    public static void main(String[] args){
+        String day =  "Friday";
+        System.out.println("Hey, are you free on "+ day +  "? \n");
+
+        System.out.println("Hmm, let me check my calendar.\n");
+
+
+        switch (day){
+            case "Monday": System.out.println("Sorry,  I have to stay at work late"); break;
+            case "Tuesday":  System.out.println("It looks like i have meetings all day"); break;
+            case "Wednesday":  System.out.println("I have a dentist appointment. Some other time!"); break;
+            case "Thursday": System.out.println("Sorry, thursday is date night!"); break;
+            case "Friday":  System.out.println("i'm free"); break;
+            case "Saturday":  System.out.println("i'm free"); break;
+            case "Sunday":  System.out.println("i'm free"); break;
+            default:  System.out.println("Invalid option");
+        }
+    }
+}
