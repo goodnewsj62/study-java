@@ -5,6 +5,11 @@ public class Main {
 
         Car dodge = new Car("Dodge", 11000, 2019, "Blue");
 
+        nissan.setPrice(nissan.getPrice() / 2);
+        dodge.setPrice(dodge.getPrice() / 2);
+
+        nissan.setColor("Jet black");
+
 
         System.out.println("This " + nissan.getMake() + " is worth $" + nissan.getPrice() + 
         ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".\n");
